@@ -11,4 +11,19 @@ public class HelloController {
     protected void onHelloButtonClick() {
         welcomeText.setText("Welcome to JavaFX Application!");
     }
+
+    @FXML
+    protected void mouseOver() {
+        welcomeText.setText("");
+    }
+
+    @FXML
+    protected void mouseExit() {
+        welcomeText.setText("Viva España y vivan los españoles");
+    }
+
+
+
+
+
 }
